@@ -1,7 +1,7 @@
 # 04_SDD_Software_Design_Document – FinNote
-**Versi:** 1.0  
-**Tanggal:** 21 September 2025  
-**Tim:** Rifqy Niam Fadhil (1241) – Muhammad Ariyanto (1281)  
+**Kelompok:**  
+- Rifqy Niam Fadhil (1241)  
+- Muhammad Ariyanto (1281)  
 
 ---
 
