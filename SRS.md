@@ -1,5 +1,7 @@
 # Dokumen SRS (Software Requirements Specification) - FinNote
-**Penulis:** Rifqy Niam Fadhil - Muhammad Ariyanto  
+**Kelompok:**  
+- Rifqy Niam Fadhil (1241)  
+- Muhammad Ariyanto (1281)  
 
 ---
 
