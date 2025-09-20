@@ -1,4 +1,7 @@
 # Entity Relationship Diagram (ERD) - FinNote 
+**Kelompok:**  
+- Rifqy Niam Fadhil (1241)  
+- Muhammad Ariyanto (1281) 
 
 ---
 
