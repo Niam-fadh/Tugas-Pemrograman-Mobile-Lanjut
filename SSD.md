@@ -2,7 +2,6 @@
 **Kelompok:**  
 - Rifqy Niam Fadhil (1241)  
 - Muhammad Ariyanto (1281)  
-
 ---
 
 ## 1. Pendahuluan
