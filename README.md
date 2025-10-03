@@ -1,86 +1,339 @@
-# 📒 FinNote – Aplikasi Pencatatan Keuangan Pribadi
+# 📒 SmartKasir – Aplikasi Kasir Digital Pintar
 **Kelompok:**  
 - Rifqy Niam Fadhil (1241)  
 - Muhammad Ariyanto (1281)  
 
 ---
+## **Deskripsi Aplikasi Smart Kasir**
 
-## 📌 Deskripsi
-**FinNote** adalah aplikasi pencatatan keuangan pribadi berbasis **Flutter** yang dikembangkan untuk memberikan solusi sederhana dan praktis dalam mengelola keuangan sehari-hari.  
+**Judul:** Smart Kasir: Aplikasi Kasir Digital Pintar untuk Bisnis Anda
 
-Di tengah kesibukan mahasiswa, pekerja, maupun pelaku usaha kecil, sering kali pencatatan keuangan diabaikan atau dilakukan secara manual sehingga menyulitkan ketika ingin mengevaluasi kondisi finansial. FinNote hadir untuk menjawab kebutuhan tersebut dengan menghadirkan fitur pencatatan transaksi yang mudah, cepat, dan dapat diakses kapan saja.  
-
-Aplikasi ini memungkinkan pengguna untuk:  
-- **Mencatat pemasukan dan pengeluaran** hanya dengan beberapa klik.  
-- **Mengelompokkan transaksi** berdasarkan kategori yang fleksibel seperti makanan, transportasi, atau tabungan.  
-- **Menampilkan ringkasan saldo** secara otomatis sehingga pengguna selalu tahu kondisi keuangan terkini.  
-- **Menyediakan laporan bulanan sederhana** yang membantu pengguna menganalisis pola pengeluaran dan kebiasaan finansial.  
-
-FinNote dirancang dengan antarmuka yang minimalis dan intuitif agar mudah digunakan oleh semua kalangan, bahkan bagi yang baru pertama kali mencoba aplikasi keuangan. Dengan performa yang ringan dan responsif, aplikasi ini juga dapat berjalan lancar di perangkat dengan spesifikasi menengah tanpa mengorbankan pengalaman pengguna.  
-
-Tidak hanya itu, FinNote juga dikembangkan dengan arsitektur **Clean Code** sehingga kode lebih terstruktur, mudah dikembangkan, dan bisa diperluas untuk fitur lanjutan di masa depan seperti sinkronisasi cloud, ekspor laporan ke PDF/Excel, maupun integrasi dengan sistem pembayaran digital.  
-
-Dengan filosofi “simpel, cepat, dan berguna”, FinNote diharapkan dapat menjadi teman keuangan yang setia untuk membantu pengguna lebih bijak dalam mengelola setiap rupiah yang dimiliki.  
+**Deskripsi Singkat (Ideal untuk tagline atau highlight awal):**
+Smart Kasir adalah solusi kasir digital pintar yang ringan dan intuitif, dirancang khusus untuk UMKM. Kelola transaksi, stok, dan laporan penjualan Anda dengan cepat, efisien, dan tanpa ribet. Tingkatkan profitabilitas bisnis Anda dengan Smart Kasir!
 
 ---
 
-## 🎯 Tujuan Aplikasi
-- Memberikan solusi pencatatan keuangan yang simpel, cepat, dan mudah dipahami.  
-- Membantu pengguna mengatur pemasukan dan pengeluaran sehari-hari.  
-- Menampilkan ringkasan saldo secara otomatis.  
-- Menyediakan laporan bulanan sederhana.  
-- Menghadirkan pengalaman pengguna yang modern dan intuitif.  
+**Deskripsi Lengkap:**
+
+**Smart Kasir** adalah aplikasi kasir digital inovatif yang akan mengubah cara Anda mengelola bisnis. Dirancang dengan fokus pada kemudahan penggunaan dan efisiensi, Smart Kasir adalah mitra terbaik bagi pemilik usaha kecil hingga menengah yang ingin menyederhanakan operasional harian, menghemat waktu, dan membuat keputusan bisnis yang lebih cerdas.
+
+**Fitur Unggulan Smart Kasir:**
+
+1.  **Transaksi Cepat & Mudah:**
+    *   **Keranjang Belanja Cerdas:** Tambahkan produk dengan cepat melalui pencarian atau scan barcode (jika diimplementasikan), sesuaikan kuantitas, dan hapus item dengan mudah.
+    *   **Perhitungan Otomatis:** Harga, diskon (per item atau total transaksi), dan kembalian dihitung secara instan dan akurat.
+    *   **Multi-Metode Pembayaran:** Dukungan untuk pembayaran tunai dan non-tunai, memudahkan transaksi pelanggan Anda.
+
+2.  **Manajemen Produk & Stok Akurat:**
+    *   **Daftar Produk Lengkap:** Kelola semua produk Anda dengan detail harga jual, harga beli (opsional), kategori, dan gambar.
+    *   **Stok Otomatis:** Stok produk akan otomatis berkurang setiap kali ada penjualan, memastikan data inventaris Anda selalu up-to-date.
+    *   **Peringatan Stok Menipis:** Dapatkan notifikasi proaktif ketika stok produk hampir habis, membantu Anda menghindari kehabisan barang dagangan.
+    *   **Penyesuaian Stok Manual:** Mudah menambah atau mengurangi stok untuk inventaris baru, retur, atau penyesuaian lainnya.
+
+3.  **Laporan Penjualan Informatif:**
+    *   **Ringkasan Penjualan Komprehensif:** Pantau omset harian, mingguan, bulanan, jumlah transaksi, dan penjualan bersih dalam bentuk ringkasan atau grafik yang mudah dibaca.
+    *   **Analisis Produk Terlaris:** Identifikasi produk mana yang paling diminati pelanggan Anda untuk perencanaan stok dan promosi yang lebih baik.
+    *   **Ekspor Laporan:** Ekspor laporan penjualan ke format PDF atau Excel dengan mudah untuk analisis lebih lanjut atau kebutuhan akuntansi.
+
+4.  **Struk Digital & Fisik:**
+    *   **Cetak Struk Instan:** Integrasi mudah dengan printer thermal Bluetooth untuk mencetak struk transaksi dalam hitungan detik.
+    *   **Bagikan Struk Digital:** Kirim struk langsung ke pelanggan melalui WhatsApp, SMS, atau Email, memberikan pengalaman modern dan ramah lingkungan.
+
+5.  **Akses Multi-Pengguna Aman:**
+    *   **Peran Pengguna:** Bedakan akses antara pemilik (full control) dan kasir (hanya akses penjualan dan riwayat transaksi mereka), menjaga keamanan dan integritas data.
+    *   **Manajemen Akun Kasir:** Pemilik dapat dengan mudah menambah, mengedit, atau menghapus akun kasir.
+
+6.  **Data Aman & Terkelola:**
+    *   **Backup & Restore Lokal:** Lindungi data bisnis Anda dengan fitur backup dan restore database lokal, memastikan informasi Anda selalu aman meskipun perangkat berganti.
+    *   **Offline-First:** Aplikasi berfungsi penuh bahkan tanpa koneksi internet, sangat ideal untuk lokasi dengan konektivitas terbatas.
+
+**Mengapa Memilih Smart Kasir?**
+
+*   **Sederhana & Ringan:** Antarmuka yang intuitif dan desain yang ringan memastikan pengalaman penggunaan yang mudah tanpa membebani perangkat Anda.
+*   **Efisiensi Waktu:** Otomatisasi proses manual membebaskan waktu Anda untuk fokus pada pengembangan bisnis.
+*   **Keputusan Berbasis Data:** Laporan dan analisis pintar membantu Anda memahami kinerja bisnis dan membuat keputusan yang lebih tepat.
+*   **Mendukung UMKM:** Solusi terjangkau dan dirancang khusus untuk memenuhi kebutuhan unik usaha kecil dan menengah.
+---
+### Daftar Fitur Aplikasi Smart Kasir
+
+Aplikasi Smart Kasir dirancang dengan fokus pada kecepatan, efisiensi, dan kemudahan penggunaan bagi UMKM. Berikut adalah fitur-fitur utama yang akan diimplementasikan:
+
+#### **1. Modul Penjualan (Point of Sale - POS)**
+Ini adalah jantung aplikasi, tempat kasir melakukan transaksi penjualan.
+*   **A. Pencarian & Pemilihan Produk Cepat:**
+    *   **Deskripsi:** Memungkinkan kasir untuk mencari produk berdasarkan nama atau kode barcode, serta memilih produk dari daftar yang tersedia dengan cepat. Tampilan daftar produk dilengkapi dengan harga dan stok yang jelas.
+    *   **Contoh Interaksi:** Kolom pencarian di bagian atas, tombol kategori produk, daftar produk dalam bentuk *grid* atau *list*.
+*   **B. Keranjang Belanja Dinamis:**
+    *   **Deskripsi:** Menampilkan semua produk yang telah dipilih beserta kuantitas, harga satuan, dan total harga sementara. Kasir dapat dengan mudah menambah/mengurangi kuantitas atau menghapus produk dari keranjang.
+    *   **Contoh Interaksi:** Area di sisi layar (tablet) atau bagian bawah (ponsel) yang menampilkan item-item dalam keranjang.
+*   **C. Perhitungan Otomatis:**
+    *   **Deskripsi:** Sistem secara otomatis menghitung total belanja, termasuk subtotal, diskon (jika diterapkan), dan pajak (jika ada).
+*   **D. Penerapan Diskon:**
+    *   **Deskripsi:** Fitur untuk menerapkan diskon pada item tertentu atau total belanja keseluruhan (misal: diskon persentase, diskon nominal).
+*   **E. Pilihan Metode Pembayaran:**
+    *   **Deskripsi:** Mendukung berbagai metode pembayaran seperti Tunai, Debit, Kredit, atau pembayaran digital (QRIS - sebagai pengembangan di masa depan).
+    *   **Contoh Interaksi:** Tombol-tombol pilihan metode pembayaran pada halaman *checkout*.
+*   **F. Pengembalian Kembalian Otomatis:**
+    *   **Deskripsi:** Jika pembayaran tunai, sistem akan menghitung dan menampilkan jumlah kembalian yang harus diberikan kepada pelanggan.
+*   **G. Pencetakan & Pengiriman Struk:**
+    *   **Deskripsi:** Opsi untuk mencetak struk transaksi menggunakan printer thermal atau mengirimkannya dalam bentuk digital (WhatsApp, SMS, Email).
+    *   **Contoh Interaksi:** Tombol "Cetak Struk" atau "Kirim Struk" setelah transaksi berhasil.
+
+#### **2. Modul Manajemen Produk & Stok**
+Memudahkan pemilik usaha dalam mengelola inventaris produk mereka.
+*   **A. Daftar Produk:**
+    *   **Deskripsi:** Menampilkan seluruh daftar produk dengan informasi penting seperti nama, harga jual, harga beli (opsional), stok, dan kategori.
+*   **B. Tambah/Edit Produk:**
+    *   **Deskripsi:** Form intuitif untuk menambahkan produk baru atau mengedit detail produk yang sudah ada, termasuk upload gambar produk.
+*   **C. Pembaruan Stok Otomatis:**
+    *   **Deskripsi:** Setiap penjualan akan otomatis mengurangi jumlah stok produk.
+*   **D. Notifikasi Stok Menipis:**
+    *   **Deskripsi:** Sistem akan memberikan peringatan (notifikasi) ketika stok produk mencapai batas minimum yang ditentukan.
+*   **E. Kategori Produk:**
+    *   **Deskripsi:** Pengelolaan kategori produk untuk pengelompokan yang lebih baik dan pencarian yang lebih mudah.
+
+#### **3. Modul Laporan Penjualan & Analisis**
+Memberikan wawasan bisnis kepada pemilik usaha untuk pengambilan keputusan yang lebih baik.
+*   **A. Laporan Penjualan Berbasis Waktu:**
+    *   **Deskripsi:** Laporan penjualan harian, mingguan, bulanan, atau custom range tanggal.
+*   **B. Ringkasan & Grafik Penjualan:**
+    *   **Deskripsi:** Menyajikan data penjualan dalam bentuk ringkasan angka (total pendapatan, total transaksi) dan visualisasi grafik yang mudah dipahami.
+*   **C. Ekspor Laporan:**
+    *   **Deskripsi:** Kemampuan untuk mengekspor laporan ke format PDF atau Excel.
+*   **D. Produk Terlaris:**
+    *   **Deskripsi:** Insight tentang produk-produk mana yang paling banyak terjual dalam periode tertentu.
+*   **E. Jam Transaksi Ramai:**
+    *   **Deskripsi:** Analisis waktu-waktu tersibuk transaksi untuk membantu dalam perencanaan staf atau promosi.
+
+#### **4. Modul Manajemen Pengguna (Multi-User)**
+Mengatur hak akses dan peran bagi staf yang berbeda.
+*   **A. Peran Pengguna (Pemilik & Kasir):**
+    *   **Deskripsi:** Membedakan hak akses antara pemilik (full access) dan kasir (terbatas pada modul penjualan dan laporan dasar).
+*   **B. Tambah/Edit Pengguna:**
+    *   **Deskripsi:** Pemilik dapat menambah, mengedit, atau menonaktifkan akun kasir.
+*   **C. Login/Logout Aman:**
+    *   **Deskripsi:** Sistem login yang aman untuk setiap pengguna.
+
+#### **5. Modul Pengaturan & Utilitas**
+Fungsi-fungsi pendukung untuk menjaga aplikasi tetap berjalan optimal.
+*   **A. Backup & Sinkronisasi Data:**
+    *   **Deskripsi:** Fitur untuk melakukan backup data secara lokal atau ke *cloud* (misal: Google Drive, Dropbox) dan sinkronisasi antar perangkat.
+*   **B. Pengaturan Printer:**
+    *   **Deskripsi:** Konfigurasi koneksi dengan printer thermal (Bluetooth/LAN).
+*   **C. Pengaturan Toko:**
+    *   **Deskripsi:** Mengatur informasi toko (nama, alamat, nomor telepon) yang akan muncul di struk.
 
 ---
 
-## 👥 Target Pengguna
-- Mahasiswa yang ingin mencatat pengeluaran sehari-hari.  
-- Pekerja atau karyawan yang ingin memantau finansial pribadi.  
-- Pelaku UMKM atau usaha kecil yang butuh catatan transaksi sederhana.  
-- Individu yang lebih suka aplikasi keuangan ringan dibanding aplikasi kompleks.  
+### Struktur GitHub Readme (Markdown)
+
+Sekarang, mari kita format daftar fitur ini ke dalam *template* GitHub Readme yang bagus, lengkap dengan pengantar dan bagian arsitektur *clean code* yang Anda minta.
+
+```markdown
+# Smart Kasir
+![Smart Kasir Logo](https://via.placeholder.com/600x200?text=Smart+Kasir+Logo)
+
+**Smart Kasir** adalah aplikasi kasir digital pintar yang dirancang untuk membantu pemilik usaha kecil hingga menengah dalam mengelola transaksi dengan lebih cepat, praktis, dan efisien. Aplikasi ini dibuat dengan filosofi **simpel dan ringan**, memastikan kemudahan penggunaan untuk setiap user.
+
+## Tujuan Proyek
+Tujuan utama dari Smart Kasir adalah menyediakan solusi kasir all-in-one yang tidak hanya mencatat penjualan, tetapi juga membantu pemilik usaha mengambil keputusan yang lebih baik melalui fitur analisis cerdas, manajemen stok yang efisien, dan laporan penjualan yang komprehensif.
+
+## Teknologi yang Digunakan
+Proyek ini dibangun menggunakan teknologi modern dan pola arsitektur terbaik untuk memastikan kinerja, skalabilitas, dan kemudahan perawatan:
+
+*   **Framework:** `Flutter`
+*   **State Management:** `Riverpod Generator`
+*   **Data Class/Immutability:** `Freezed`
+*   **Routing:** `Go_router`
+*   **Functional Programming Utilities:** `fpdart`
+*   **Logging:** `Logger`
+*   **Database Lokal:** `Drift`
+
+## Arsitektur Aplikasi (Clean Code Principles)
+Kami berkomitmen pada implementasi **Clean Architecture** untuk memastikan kode yang mudah diuji, fleksibel, dan terpisah dari detail implementasi. Struktur utama akan dibagi menjadi beberapa lapisan:
+
+1.  **Presentation Layer (UI/UX):**
+    *   Terdiri dari Widgets dan Pages yang berinteraksi langsung dengan pengguna.
+    *   Bertanggung jawab untuk menampilkan data dan menerima input pengguna.
+    *   Menggunakan `Riverpod` untuk manajemen state dan `Go_router` untuk navigasi.
+    *   Bergantung pada `Domain Layer` (Use Cases) untuk logika bisnis.
+
+2.  **Domain Layer (Business Logic):**
+    *   Inti dari aplikasi, bersifat agnostik terhadap UI dan Database.
+    *   Berisi `Entities` (model data murni), `Use Cases` (aturan bisnis spesifik), dan `Repositories Interfaces`.
+    *   `Freezed` akan digunakan untuk mendefinisikan `Entities` yang *immutable*.
+    *   Menggunakan `fpdart` untuk penanganan *error* dan *optional values* secara fungsional.
+
+3.  **Data Layer (Data Source):**
+    *   Bertanggung jawab untuk mengambil dan menyimpan data.
+    *   Terdiri dari `Repositories Implementations` dan `Data Sources` (lokal/remote).
+    *   `Drift` akan menjadi *data source* utama untuk database lokal.
+    *   Mungkin akan ada `Remote Data Source` (misal: untuk sinkronisasi cloud) di masa depan.
+    *   Bergantung pada `Domain Layer` (Entities dan Repository Interfaces).
+
+```
+Project
+├── lib
+│   ├── main.dart
+│   ├── app.dart (App startup & global providers)
+│   │
+│   ├── core      (Cross-cutting concerns, shared utilities)
+│   │   ├── error_handling (e.g., Failure classes)
+│   │   ├── utils          (e.g., date formatters, validators)
+│   │   └── constants      (e.g., API keys, app constants)
+│   │
+│   ├── features  (Feature-specific modules)
+│   │   ├── auth          (Login, User Management)
+│   │   │   ├── data      (Models, Repositories Impl, Data Sources)
+│   │   │   ├── domain    (Entities, Use Cases, Repositories Interface)
+│   │   │   └── presentation (Widgets, Pages, ViewModels/Providers)
+│   │   │
+│   │   ├── products      (Product Management, Inventory)
+│   │   │   ├── data
+│   │   │   ├── domain
+│   │   │   └── presentation
+│   │   │
+│   │   ├── pos           (Point of Sale, Transaction)
+│   │   │   ├── data
+│   │   │   ├── domain
+│   │   │   └── presentation
+│   │   │
+│   │   ├── reports       (Sales Reports, Analytics)
+│   │   │   ├── data
+│   │   │   ├── domain
+│   │   │   └── presentation
+│   │   │
+│   │   └── settings      (App Settings, Printer Config, Backup)
+│   │       ├── data
+│   │       ├── domain
+│   │       └── presentation
+│   │
+│   └── shared    (Reusable components across features)
+│       ├── widgets (e.g., Custom button, loading indicator)
+│       └── providers (e.g., AppDatabaseProvider for Drift)
+│
+├── test          (Unit & Widget Tests)
+├── pubspec.yaml
+├── README.md
+└── ...
+```
+## Daftar Fitur Aplikasi
+
+Aplikasi Smart Kasir dirancang dengan fokus pada kecepatan, efisiensi, dan kemudahan penggunaan bagi UMKM. Berikut adalah fitur-fitur utama yang akan diimplementasikan:
 
 ---
 
-## 📂 Struktur & Dokumen Proyek
-Repositori ini juga mencakup dokumen–dokumen pendukung sebagai bagian dari tugas perancangan perangkat lunak:  
+### **1. Modul Penjualan (Point of Sale - POS)**
+Ini adalah jantung aplikasi, tempat kasir melakukan transaksi penjualan.
 
-1. **01_PRD_Product_Requirement_Document.md** – Dokumen kebutuhan produk (Product Requirement Document).  
-2. **02_SRS_Software_Requirement_Specification.md** – Dokumen spesifikasi kebutuhan perangkat lunak.  
-3. **03_ERD_Entity_Relationship_Diagram.md** – Representasi basis data aplikasi dalam bentuk teks.  
-4. **04_SDD_Software_Design_Document.md** – Dokumen desain arsitektur dan interaksi komponen sistem.  
-5. **05_SPRINT_MVP_Timeline_Checklist.md** – Rencana kerja sprint pengembangan MVP.  
+*   **A. Pencarian & Pemilihan Produk Cepat:**
+    *   **Deskripsi:** Memungkinkan kasir untuk mencari produk berdasarkan nama atau kode barcode, serta memilih produk dari daftar yang tersedia dengan cepat. Tampilan daftar produk dilengkapi dengan harga dan stok yang jelas.
+*   **B. Keranjang Belanja Dinamis:**
+    *   **Deskripsi:** Menampilkan semua produk yang telah dipilih beserta kuantitas, harga satuan, dan total harga sementara. Kasir dapat dengan mudah menambah/mengurangi kuantitas atau menghapus produk dari keranjang.
+*   **C. Perhitungan Otomatis:**
+    *   **Deskripsi:** Sistem secara otomatis menghitung total belanja, termasuk subtotal, diskon (jika diterapkan), dan pajak (jika ada).
+*   **D. Penerapan Diskon:**
+    *   **Deskripsi:** Fitur untuk menerapkan diskon pada item tertentu atau total belanja keseluruhan (misal: diskon persentase, diskon nominal).
+*   **E. Pilihan Metode Pembayaran:**
+    *   **Deskripsi:** Mendukung berbagai metode pembayaran seperti Tunai, Debit, Kredit, atau pembayaran digital (QRIS - sebagai pengembangan di masa depan).
+*   **F. Pengembalian Kembalian Otomatis:**
+    *   **Deskripsi:** Jika pembayaran tunai, sistem akan menghitung dan menampilkan jumlah kembalian yang harus diberikan kepada pelanggan.
+*   **G. Pencetakan & Pengiriman Struk:**
+    *   **Deskripsi:** Opsi untuk mencetak struk transaksi menggunakan printer thermal atau mengirimkannya dalam bentuk digital (WhatsApp, SMS, Email).
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
-- **Flutter** → Framework pengembangan aplikasi.  
-- **Dart** → Bahasa pemrograman utama.  
-- **SQLite (Drift/Hive)** → Database lokal untuk menyimpan transaksi dan kategori.  
-- **Riverpod/Provider** → State management.  
-- **GoRouter** → Navigasi antar halaman.  
+### **2. Modul Manajemen Produk & Stok**
+Memudahkan pemilik usaha dalam mengelola inventaris produk mereka.
+
+*   **A. Daftar Produk:**
+    *   **Deskripsi:** Menampilkan seluruh daftar produk dengan informasi penting seperti nama, harga jual, harga beli (opsional), stok, dan kategori.
+*   **B. Tambah/Edit Produk:**
+    *   **Deskripsi:** Form intuitif untuk menambahkan produk baru atau mengedit detail produk yang sudah ada, termasuk upload gambar produk.
+*   **C. Pembaruan Stok Otomatis:**
+    *   **Deskripsi:** Setiap penjualan akan otomatis mengurangi jumlah stok produk.
+*   **D. Notifikasi Stok Menipis:**
+    *   **Deskripsi:** Sistem akan memberikan peringatan (notifikasi) ketika stok produk mencapai batas minimum yang ditentukan.
+*   **E. Kategori Produk:**
+    *   **Deskripsi:** Pengelolaan kategori produk untuk pengelompokan yang lebih baik dan pencarian yang lebih mudah.
 
 ---
 
-## 🚀 Fitur Utama (MVP)
-- Tambah, edit, hapus transaksi.  
-- Kelola kategori (pemasukan/pengeluaran).  
-- Ringkasan saldo otomatis.  
-- Laporan bulanan sederhana.  
-- UI minimalis + dark mode.  
+### **3. Modul Laporan Penjualan & Analisis**
+Memberikan wawasan bisnis kepada pemilik usaha untuk pengambilan keputusan yang lebih baik.
+
+*   **A. Laporan Penjualan Berbasis Waktu:**
+    *   **Deskripsi:** Laporan penjualan harian, mingguan, bulanan, atau custom range tanggal.
+*   **B. Ringkasan & Grafik Penjualan:**
+    *   **Deskripsi:** Menyajikan data penjualan dalam bentuk ringkasan angka (total pendapatan, total transaksi) dan visualisasi grafik yang mudah dipahami.
+*   **C. Ekspor Laporan:**
+    *   **Deskripsi:** Kemampuan untuk mengekspor laporan ke format PDF atau Excel.
+*   **D. Produk Terlaris:**
+    *   **Deskripsi:** Insight tentang produk-produk mana yang paling banyak terjual dalam periode tertentu.
+*   **E. Jam Transaksi Ramai:**
+    *   **Deskripsi:** Analisis waktu-waktu tersibuk transaksi untuk membantu dalam perencanaan staf atau promosi.
+
+---
+
+### **4. Modul Manajemen Pengguna (Multi-User)**
+Mengatur hak akses dan peran bagi staf yang berbeda.
+
+*   **A. Peran Pengguna (Pemilik & Kasir):**
+    *   **Deskripsi:** Membedakan hak akses antara pemilik (full access) dan kasir (terbatas pada modul penjualan dan laporan dasar).
+*   **B. Tambah/Edit Pengguna:**
+    *   **Deskripsi:** Pemilik dapat menambah, mengedit, atau menonaktifkan akun kasir.
+*   **C. Login/Logout Aman:**
+    *   **Deskripsi:** Sistem login yang aman untuk setiap pengguna.
+
+---
+
+### **5. Modul Pengaturan & Utilitas**
+Fungsi-fungsi pendukung untuk menjaga aplikasi tetap berjalan optimal.
+
+*   **A. Backup & Sinkronisasi Data:**
+    *   **Deskripsi:** Fitur untuk melakukan backup data secara lokal atau ke *cloud* (misal: Google Drive, Dropbox) dan sinkronisasi antar perangkat.
+*   **B. Pengaturan Printer:**
+    *   **Deskripsi:** Konfigurasi koneksi dengan printer thermal (Bluetooth/LAN).
+*   **C. Pengaturan Toko:**
+    *   **Deskripsi:** Mengatur informasi toko (nama, alamat, nomor telepon) yang akan muncul di struk.
+
+---
+
+## Kontribusi
+Kami menyambut kontribusi dari komunitas! Jika Anda tertarik untuk membantu mengembangkan Smart Kasir, silakan lihat panduan kontribusi kami (TBD).
+
+## Lisensi
+Proyek ini dilisensikan di bawah [TBD - misalnya MIT License].
+
+```
+
+---
+
+**Catatan Penting:**
+
+*   **Logo:** Ganti `https://via.placeholder.com/600x200?text=Smart+Kasir+Logo` dengan URL gambar logo Smart Kasir Anda nanti.
+*   **Lisensi:** Tentukan lisensi yang ingin Anda gunakan (misalnya MIT, Apache 2.0).
+*   **"TBD" (To Be Determined):** Ada beberapa bagian yang saya tandai dengan TBD, seperti panduan kontribusi dan lisensi, yang perlu Anda isi nanti.
+*   **Screenshot:** Jika Anda ingin saya menganalisis fitur dari *screenshot* yang lebih spesifik, Anda harus menyediakannya. Karena saya tidak bisa melihatnya, saya membuat asumsi umum yang logis untuk aplikasi kasir.
+
+Bagaimana menurut Anda? Apakah daftar fitur dan struktur Readme ini sudah sesuai dengan ekspektasi Anda berdasarkan *cap
 
 ---
 ## Product Requirements Document (PRD) - Smart Kasir
 ---
 1. Pendahuluan
 Smart Kasir adalah aplikasi kasir digital cerdas yang dirancang untuk membantu pemilik usaha kecil hingga menengah dalam mengelola transaksi penjualan, inventaris produk, dan laporan keuangan dengan lebih cepat, praktis, dan efisien. Aplikasi ini bertujuan untuk menyederhanakan operasional harian, mengurangi kesalahan manual, dan menyediakan wawasan bisnis yang actionable bagi UMKM.
-2. Visi Produk
+
+3. Visi Produk
 Menjadi aplikasi kasir pilihan utama bagi UMKM di Indonesia yang menawarkan solusi komprehensif, mudah digunakan, dan berbasis data untuk meningkatkan efisiensi operasional dan mendukung pertumbuhan bisnis.
-3. Tujuan Bisnis
+
+5. Tujuan Bisnis
 Meningkatkan efisiensi proses penjualan UMKM hingga 30%.
 Mengurangi waktu yang dihabiskan untuk pencatatan manual dan rekap laporan.
 Memberikan wawasan tentang kinerja produk dan tren penjualan kepada pemilik usaha.
 Menyediakan platform yang stabil dan andal untuk pengelolaan bisnis sehari-hari.
-4. Target Pengguna
+
+7. Target Pengguna
 Primer: Pemilik usaha kecil dan menengah (UMKM) seperti toko kelontong, kafe/restoran kecil, butik, kios, dan usaha retail sejenis.
 Sekunder: Karyawan/Kasir di UMKM tersebut.
 Kebutuhan Pengguna:
@@ -89,8 +342,10 @@ Manajemen stok yang akurat.
 Laporan penjualan yang informatif dan mudah diakses.
 Biaya operasional yang rendah (simpel, ringan, tanpa perangkat mahal).
 Akses data yang aman dan terjamin.
-5. Fitur Produk (Detailed Requirements)
+
+9. Fitur Produk (Detailed Requirements)
 Berikut adalah daftar fitur utama Smart Kasir, dibagi berdasarkan kategori fungsionalitas:
+
 5.1. Core Penjualan & Transaksi (POS)
 5.1.1. Halaman Utama / POS:
 Deskripsi: Antarmuka utama untuk melakukan transaksi penjualan.
@@ -100,6 +355,7 @@ Mekanisme untuk menambahkan produk ke keranjang belanja.
 Menampilkan detail keranjang belanja (nama produk, kuantitas, harga, subtotal).
 Opsi untuk menyesuaikan kuantitas produk atau menghapus item dari keranjang.
 Menampilkan total pembayaran secara real-time.
+
 5.1.2. Proses Pembayaran:
 Deskripsi: Memungkinkan kasir untuk menyelesaikan pembayaran dan mencatat transaksi.
 Persyaratan:
@@ -107,24 +363,28 @@ Pilihan metode pembayaran: Tunai dan Non-Tunai (Debit/Kredit/QRIS - sebagai pena
 Untuk pembayaran tunai: input jumlah uang yang diterima dan otomatis menampilkan kembalian.
 Opsi untuk menerapkan diskon (persen/nominal) ke seluruh transaksi atau per item.
 Merekam nama kasir yang melakukan transaksi.
+
 5.1.3. Riwayat Transaksi:
 Deskripsi: Melihat daftar transaksi yang telah selesai.
 Persyaratan:
 Menampilkan daftar transaksi dengan informasi dasar (tanggal, waktu, total, kasir).
 Filter berdasarkan tanggal.
 Detail transaksi lengkap (produk, kuantitas, harga, diskon, metode pembayaran) saat dipilih.
+
 5.2. Manajemen Produk & Inventaris
 5.2.1. Daftar Produk:
 Deskripsi: Mengelola daftar produk yang dijual.
 Persyaratan:
 Menampilkan daftar semua produk dengan nama, harga jual, stok, dan kategori.
 Fungsi pencarian dan filter produk.
+
 5.2.2. Tambah/Edit/Hapus Produk:
 Deskripsi: Menambah, mengubah, atau menghapus informasi produk.
 Persyaratan:
 Formulir input untuk nama produk, harga beli (opsional, untuk perhitungan profit), harga jual, stok awal, kategori, kode produk/barcode.
 Opsi untuk mengunggah gambar produk (opsional di MVP).
 Validasi input data.
+
 5.2.3. Manajemen Stok:
 Deskripsi: Memastikan akurasi stok dan memberikan peringatan.
 Persyaratan:
@@ -132,6 +392,7 @@ Stok otomatis berkurang setelah transaksi penjualan.
 Opsi untuk penyesuaian stok manual (penambahan/pengurangan).
 Pengaturan batas minimum stok untuk setiap produk.
 Notifikasi/peringatan ketika stok produk mencapai batas minimum.
+
 5.3. Laporan & Analisis
 5.3.1. Laporan Penjualan:
 Deskripsi: Menyediakan ringkasan dan analisis penjualan.
@@ -142,6 +403,7 @@ Visualisasi data penjualan dalam bentuk grafik (misal: tren penjualan harian/bul
 Daftar produk terlaris berdasarkan kuantitas atau omset.
 Informasi jam-jam transaksi ramai.
 Opsi untuk mengekspor laporan ke format PDF dan Excel.
+
 5.4. Cetak & Berbagi Struk
 5.4.1. Struk Transaksi:
 Deskripsi: Memberikan struk kepada pelanggan.
@@ -149,6 +411,7 @@ Persyaratan:
 Fungsi untuk mencetak struk menggunakan printer thermal (Bluetooth).
 Opsi untuk mengirim struk digital (teks sederhana atau PDF) melalui WhatsApp atau SMS ke nomor pelanggan.
 Struk mencakup detail transaksi, nama toko, tanggal, dan total pembayaran.
+
 5.5. Pengaturan & Lain-lain
 5.5.1. Manajemen Pengguna:
 Deskripsi: Mengelola akses pengguna (pemilik, kasir).
@@ -156,18 +419,21 @@ Persyaratan:
 Sistem login dengan username dan password.
 Dua peran: Pemilik (akses penuh) dan Kasir (hanya akses POS dan riwayat transaksi sendiri).
 Pemilik dapat menambah, mengedit, atau menghapus akun kasir.
+
 5.5.2. Pengaturan Toko:
 Deskripsi: Mengatur informasi dasar toko.
 Persyaratan:
 Input nama toko, alamat, dan nomor telepon.
 Pengaturan mata uang.
+
 5.5.3. Backup & Sinkronisasi Data:
 Deskripsi: Melindungi data dan memastikan konsistensi.
 Persyaratan:
 Opsi backup data ke perangkat lokal.
 Opsi restore data dari backup lokal.
 (Future/Enhancement): Sinkronisasi data ke cloud untuk multi-perangkat atau backup otomatis.
-6. Persyaratan Teknis & Arsitektur
+
+11. Persyaratan Teknis & Arsitektur
 Platform: Android, iOS (Target utama: Android untuk UMKM).
 Framework: Flutter.
 State Management: Riverpod Generator.
@@ -178,13 +444,15 @@ Logging: Logger.
 Database Lokal: Drift (SQLite).
 Arsitektur: Clean Code (Presentation, Domain, Data Layers).
 Offline Support: Aplikasi harus berfungsi penuh secara offline, dengan sinkronisasi data saat koneksi tersedia (jika fitur cloud diimplementasikan).
-7. Desain & Pengalaman Pengguna (UX/UI)
+
+12. Desain & Pengalaman Pengguna (UX/UI)
 Simplicity: Antarmuka harus sangat intuitif, bersih, dan minimalis.
 Efisiensi: Alur kerja transaksi harus cepat, meminimalkan jumlah ketukan atau navigasi.
 Aksesibilitas: Ikon yang jelas, teks yang mudah dibaca, dan kontras warna yang baik.
 Konsistensi: Desain komponen UI yang konsisten di seluruh aplikasi.
 Feedback Visual: Memberikan umpan balik yang jelas untuk setiap tindakan pengguna (misal: notifikasi sukses/gagal).
-8. MVP (Minimum Viable Product) Scope
+
+14. MVP (Minimum Viable Product) Scope
 Untuk iterasi awal, MVP akan fokus pada fitur-fitur inti berikut untuk memberikan nilai langsung kepada UMKM:
 Core Penjualan & Transaksi: Halaman POS, Proses Pembayaran (Tunai/Non-Tunai sebagai penanda), Riwayat Transaksi (basic).
 Manajemen Produk & Inventaris: Daftar Produk, Tambah/Edit/Hapus Produk, Manajemen Stok (pengurangan otomatis & penyesuaian manual), Peringatan Stok Menipis.
@@ -194,13 +462,15 @@ Manajemen Pengguna: Login/Logout, Peran Pemilik/Kasir (basic).
 Pengaturan Toko: Input nama toko.
 Backup Data: Backup lokal.
 Fitur lain seperti sinkronisasi cloud, kirim struk via WhatsApp/SMS, laporan analisis mendalam, atau fitur pintar lainnya akan dipertimbangkan untuk fase pengembangan selanjutnya.
-9. Metrik Keberhasilan
+
+16. Metrik Keberhasilan
 Jumlah unduhan dan aktivasi aplikasi.
 Frekuensi penggunaan harian/mingguan.
 Rata-rata waktu penyelesaian transaksi.
 Feedback positif dari pengguna UMKM.
 Akurasi data stok.
-10. Asumsi & Keterbatasan
+
+18. Asumsi & Keterbatasan
 Pengguna memiliki perangkat Android/iOS yang memadai.
 Printer thermal yang didukung adalah yang terhubung via Bluetooth (untuk MVP).
 Tidak ada integrasi langsung dengan sistem pembayaran pihak ketiga (bank, QRIS provider) di MVP, hanya pencatatan metode pembayaran.
